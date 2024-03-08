@@ -1,0 +1,21 @@
+<h1>what the f 
+
+</h1>
+<p>my name {{first_name}}</p>
+<p>
+    {{ stuff|striptags }}
+</p>
+<p>
+    {% for i in fthings %}
+        {{i}}<br/>
+    {% endfor %}
+</p>
+
+<p>
+    {% for i in fthings %}
+        {% if i == 1 %}
+            {{i + 68}}<br/>
+        {% endif %}
+        {{i}}<br/>
+    {% endfor %}
+</p>
